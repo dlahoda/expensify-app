@@ -8,7 +8,7 @@ module.exports = (env) => {
     entry: './src/app.js',
     output: {
       filename: 'bundle.js',
-      path: path.resolve(__dirname, 'public/scripts'),
+      path: path.resolve(__dirname, 'public', 'dist'),
       publicPath: '/'
     },
     module: {
@@ -38,12 +38,12 @@ module.exports = (env) => {
     devtool: isProduction ? "source-map" : "inline-source-map",
     devServer: {
       contentBase: path.resolve(__dirname, 'public'),
-      publicPath: '/scripts/',
+      publicPath: '/dist/',
       historyApiFallback: true
     },
     plugins: [
       new MiniCssExtractPlugin({
-        filename: '../[name].css'
+        filename: '[name].css'
       })
     ],
   };

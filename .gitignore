@@ -61,7 +61,4 @@ typings/
 .next
 
 # Project files
-bundle.js
-bundle.js.map
-main.css
-main.css.map
+public/dist
