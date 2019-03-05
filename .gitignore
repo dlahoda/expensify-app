@@ -60,5 +60,8 @@ typings/
 # next.js build output
 .next
 
-# Javascript bundle
+# Project files
 bundle.js
+bundle.js.map
+main.css
+main.css.map
