@@ -62,3 +62,5 @@ typings/
 
 # Project files
 public/dist
+.env.test
+.env.development
