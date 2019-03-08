@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "express": "^4.16.4",
-    "firebase": "^5.8.5"
+    "firebase": "^5.8.5",
+    "history": "^4.7.2"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
