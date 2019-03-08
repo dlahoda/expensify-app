@@ -22,7 +22,7 @@ module.exports = (env) => {
     output: {
       filename: 'bundle.js',
       path: path.resolve(__dirname, 'public', 'dist'),
-      publicPath: '/'
+      publicPath: "/"
     },
     module: {
       rules: [{
@@ -51,8 +51,8 @@ module.exports = (env) => {
     devtool: isProduction ? "source-map" : "inline-source-map",
     devServer: {
       contentBase: path.resolve(__dirname, 'public'),
-      publicPath: '/dist/',
-      historyApiFallback: true
+      historyApiFallback: true,
+      publicPath: '/dist/'
     },
     plugins: [
       new MiniCssExtractPlugin({
