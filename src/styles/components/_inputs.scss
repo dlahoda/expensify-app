@@ -18,4 +18,5 @@
 .textarea {
   @extend .text-input;
   height: 10rem;
+  resize: vertical;
 }
