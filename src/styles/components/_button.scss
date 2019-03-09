@@ -1,8 +1,15 @@
 .button {
+  display: inline-block;
   background: $blue;
-  color: #fff;
+  color: white;
   border: none;
   padding: $s-size;
   font-weight: 300;
   font-size: $fz-large;
+  line-height: 1;
+  text-decoration: none;
+
+  &--transparent {
+    background: transparent;
+  }
 }
