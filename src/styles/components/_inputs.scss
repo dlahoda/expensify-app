@@ -1,0 +1,21 @@
+.text-input {
+  border: 1px solid #cacccd;
+  height: 50px;
+  padding: $s-size;
+  font-size: $fz-large;
+  font-weight: 300;
+}
+
+.select {
+  @extend .text-input;
+  
+  &:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 $dark-gray !important;
+  }
+}
+
+.textarea {
+  @extend .text-input;
+  height: 10rem;
+}
